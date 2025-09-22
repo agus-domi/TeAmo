@@ -221,7 +221,8 @@
 
         .romantic-message {
             position: absolute;
-            bottom: 50px;
+            top: 40px;
+            /* antes bottom: 50px */
             left: 50%;
             transform: translateX(-50%);
             color: var(--yellow-primary);
@@ -240,7 +241,8 @@
         @media (max-width: 600px) {
             .romantic-message {
                 font-size: 16px;
-                bottom: 50px;
+                top: 20px;
+                /* antes bottom: 50px */
                 padding: 0 20px;
             }
         }
@@ -771,8 +773,6 @@
                 </div>
             </div>
         </div>
-
-        <button class="back-btn" onclick="goBack()">← Volver</button>
     </div>
 
     <script>
